@@ -1,0 +1,53 @@
+table{
+    border-collapse: collapse;
+    caption-side: top;
+    border: 2px solid black;
+    width: 100%;
+}
+
+tr, td, th{
+    border: 2px solid black;
+}
+
+caption{
+    border: 2px solid black;
+}
+
+td{
+    width: 40px;height: 20px;
+}
+
+.tableau1{
+
+    caption-side: top;
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
+.tableau2{
+
+    caption-side: bottom;
+    border-collapse: separate;
+}
+
+.tableau3{
+
+    caption-side: top;
+    empty-cells: unset;
+    border-collapse: collapse;
+}
+
+.tableau4{
+
+    caption-side: bottom;
+    empty-cells: unset;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background: coral;
+}
+
+tr:nth-child(even){
+    text-transform: capitalize;
+}
